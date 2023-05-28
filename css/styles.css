@@ -238,12 +238,14 @@ img {
   height: 112px;
   border-radius: 4px;
   margin-bottom: 8px;
+  gap: 24px;
 }
 
 .program-icon-list {
   display: flex;
   justify-content: center;
   gap: 24px;
+
 }
 .program-icon-item {
   width: 264px;
