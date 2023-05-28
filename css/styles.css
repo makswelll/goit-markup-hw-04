@@ -83,6 +83,8 @@ img {
 .header {
   font-style: normal;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -168,7 +170,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -229,6 +231,10 @@ img {
   width: 264px;
   height: 72px;
 }
+.program-icon-container{
+
+}
+
 .program-icon-list {
   display: flex;
   justify-content: center;
