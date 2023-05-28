@@ -232,14 +232,18 @@ img {
   height: 72px;
 }
 .program-icon-container{
-
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  height: 112px;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .program-icon-list {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 8px;
 }
 .program-icon-item {
   width: 264px;
