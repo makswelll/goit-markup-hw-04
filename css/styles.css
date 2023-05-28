@@ -231,12 +231,12 @@ img {
   width: 264px;
   height: 72px;
 }
-.program-icon-container{
+.program-icon-container {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   height: 112px;
-  background-color: #f4f4fd ;
+  background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
 }
@@ -245,7 +245,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-
 }
 .program-icon-item {
   width: 264px;
@@ -309,6 +308,8 @@ img {
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-description {
   padding: 32px 16px;
@@ -343,12 +344,20 @@ img {
   align-items: center;
   justify-content: center;
 }
+.team-soc-link:hover,
+.team-soc-link:focus{
+  background-color: #404bbf;
+}
 .team-soc-icon {
+  fill: #f4f4fd;
 }
 /* -------------------------------------------------------CUSTOMERS--------------------------------------------------------*/
-.customers-container {
+.customers{
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.customers-container {
+  
 }
 .customers-title {
   font-size: 36px;
@@ -357,6 +366,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  color:var(--secondary-text-color);
 }
 .customers-list {
   display: flex;
@@ -375,6 +385,15 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #8e8f99;
+}
+.customers-link:hover,
+.customers-link:focus{
+  border-color: var(--primare-hover-color);
+  color: var(--primare-hover-color);
+}
+.customers-icon{
+  fill: currentColor;
 }
 
 /* -------------------------------------------------------FOOTER--------------------------------------------------------*/
@@ -460,7 +479,12 @@ img {
   align-items: center;
   justify-content: center;
 }
+.footer-soc-link:hover,
+.footer-soc-link:focus{
+  background-color: #31d0aa;
+}
 .footer-soc-icon {
+  fill: #f4f4fd;
 }
 
 /* -------------------------------------------------------PORTFOLIO PROJECTS--------------------------------------------------------*/
@@ -482,11 +506,13 @@ img {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .projects-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .projects-btn {
@@ -521,6 +547,11 @@ img {
   width: calc((100% - 48px) / 3);
 }
 .examples-link {
+  display: block;
+}
+.examples-link:hover,
+.examples-link:focus{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .application-name {
   padding: 32px 16px;
